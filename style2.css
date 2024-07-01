@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(185, 185, 177);
+    box-shadow: 4px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.head1 {
+    padding: 20px;
+
+    p {
+        padding-left: 20px;
+        font-weight: 500;
+        font-size: 22px;
+
+        span {
+            color: yellowgreen;
+            font-weight: 800;
+        }
+    }
+}
+
+.head2 {
+    padding: 20px;
+
+    button {
+        padding-right: 30px;
+        background-color: yellowgreen;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+
+    }
+}
+
+.center {
+    h1 {
+        color: yellowgreen;
+        text-decoration: underline;
+    }
+}
+
+#container1 {
+    display: flex ;
+    justify-content: center ;
+    align-items: center ;
+    min-height: 60vh ;
+    overflow: hidden ;
+    
+}
+
+.quiz {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 40%;
+    height: 30%;
+    position: relative;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 13px;
+
+    div {
+
+        h2 {
+            color: yellowgreen;
+            font-weight: 700;
+            border-bottom: 1px solid red;
+            margin-bottom: 15px;
+
+        }
+
+        h4 {
+            color: yellowgreen;
+            font-weight: 700;
+            border-bottom: 1px solid red;
+            margin-bottom: 15px;
+        }
+    }
+
+    p {
+        font-size: 19px;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    #start {
+        position: absolute;
+        right: 20px;
+        bottom: 15px;
+        padding-right: 30px;
+        background-color: yellowgreen;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+    }
+}
+
+
+#container2 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 80vh !important;
+
+}
+
+
+#next {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    padding-right: 30px;
+    background-color: yellowgreen;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px 90px;
+    border: 1px solid rgb(54, 44, 44);
+    cursor: pointer;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: rgb(48, 41, 41);
+    color: #fff;
+}
+
+.correct {
+    background-color: rgb(117, 221, 117);
+}
+
+.incorrect {
+    background-color: rgb(189, 75, 75);
+}
+
+#container3 {
+    width: 100vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 80vh !important;
+    position: relative;
+
+    p {
+        background-color: yellowgreen;
+        color: white;
+        display: inline-block;
+        margin-left: 42.5%;
+        padding: 30px;
+        border-radius: 40px;
+        font-size: 35px;
+
+    }
+    h5{
+        display: block;
+        margin: auto;
+        margin-bottom: 20px !important;
+        font-size: 18px;
+    }
+
+    #finish {
+        display: block;
+        margin: auto;
+        margin-right: 20px !important;
+        padding-right: 30px;
+        background-color: yellowgreen;
+        color: whitesmoke;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+        font-size: 18px;
+
+    }
+}
+.upper{
+    bottom: 500px;
+}
+.han{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 60vh !important;
+    overflow: hidden ;
+}
