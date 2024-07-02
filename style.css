@@ -11,6 +11,8 @@ body {
     object-fit: contain;
     background-position: center;
     background-size: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -53,7 +55,7 @@ input {
 ::placeholder{
     padding-left: 30px;
 }
-.fa-user{
+.dd{
     position: absolute;
     top: 89px;
     left: 150px;
@@ -70,12 +72,16 @@ input {
 }
 .ee{
     position: absolute;
-    top: 90px;
+    top: 151px;
     left: 160px; 
 }
 .pp{
     position: absolute;
-    top: 150px;
+    top: 211px;
+    left: 163px;
+}.ss{
+    position: absolute;
+    top: 89px;
     left: 160px;
 }
 #submit,

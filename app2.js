@@ -103,8 +103,9 @@ let questions = [
 ]
 let names = document.getElementById("name");
 let key = Object.keys(localStorage);
+let local = JSON.parse(localStorage.getItem("Names"));
+    names.innerHTML = local;
 
-names.innerHTML = "Guest";
 let startbtn = document.getElementById("start");
 let nextbtn = document.getElementById("next");
 let question = document.getElementById("question");
@@ -242,5 +243,6 @@ let logout = document.getElementById("logout");
 
 logout.addEventListener("click", function () {
     window.location.replace("index.html");
+    localStorage.removeItem("Names");
 
 })
