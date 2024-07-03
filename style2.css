@@ -167,14 +167,27 @@ body{
     min-height: 80vh !important;
     position: relative;
 
-    p {
-        background-color: yellowgreen;
-        color: white;
-        display: inline-block;
-        margin-left: 42.5%;
-        padding: 30px;
-        border-radius: 40px;
-        font-size: 35px;
+    .hann {
+        position: relative;
+        left: 37.5%;
+        width: 130px;
+        height: 130px;
+        border-radius: 50% !important;
+        background-color: rgba(153, 205, 50, 0.582);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        /* background-color: rgba(153, 205, 50, 0.493); */
+        user-select: none;
+
+        
+    }.hann::before {
+        content: '';
+        position: absolute;
+        background-color:yellowgreen;
+        inset: 9px;
+        border-radius: 50%;
 
     }
     h5{
@@ -208,4 +221,11 @@ body{
     align-items: center !important;
     min-height: 60vh !important;
     overflow: hidden ;
+}
+#per{
+    margin-top: 25px;
+    color: white;
+    font-size: 25px;
+    z-index: 100;
+
 }

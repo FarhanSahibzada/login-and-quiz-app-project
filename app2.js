@@ -200,7 +200,8 @@ function showscore() {
         text.innerHTML = `😢 Sorry, you failed the quiz. Your score is ${score}/${questions.length}. 😢`;
     }
 
-
+    let han = document.getElementById("hann");
+    han.style.background = `conic-gradient(#f5036c ${per}%, rgba(153, 205, 50, 0.582) 0%)`;
 }
 function handlenextbtn() {
     questionindex++;
